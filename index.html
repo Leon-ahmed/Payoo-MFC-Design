@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payoo Payment</title>
-    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payoo Payment</title>
+  <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
 
-   <!-- tailwind + daisy Ui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
- 
-    <!-- font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-   
-    <!-- icon  -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- tailwind + daisy Ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-     <style>
-        *{
-             font-family: "Outfit", sans-serif;
-        }
-     </style>
+  <style>
+    * {
+      font-family: "Outfit", sans-serif;
+    }
+  </style>
 
 </head>
+
 <body class=" min-h-screen max-w-md bg-base-200 mx-auto">
-    
 
-    <div class="logo w-[270px] mx-auto pt-52">
-        <img src="./assets/Logo-full.png" alt="">
-    </div>
 
-    <div class="form pt-8">
-         <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow rounded-2xl  mx-auto">
+  <div class="logo w-[270px] mx-auto pt-52">
+    <img src="./assets/Logo-full.png" alt="">
+  </div>
+
+  <div class="form pt-8">
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow rounded-2xl  mx-auto">
       <div class="card-body">
         <fieldset class="fieldset">
           <label class="label text-neutral font-bold">Mobile Number</label>
-          <input id="input-number" maxlength="11" minlength="11" type="text" class="input bg-base-200 rounded-full w-full" placeholder="Enter your number" /> <br>
+          <input id="input-number" maxlength="11" minlength="11" type="text"
+            class="input bg-base-200 rounded-full w-full border-0" placeholder="Enter your number" value="01813318668" /> <br>
           <label class="label text-neutral font-bold  ">4 Digit Pin</label>
-          <input id="input-pin" maxlength="4" minlength="4" type="password " class="input bg-base-200 rounded-full w-full" placeholder="Enter 4 Digit Pin" />
-          
+          <input id="input-pin" maxlength="4" minlength="4" type="password "
+            class="input bg-base-200 rounded-full w-full border-0" placeholder="Enter 4 Digit Pin" />
+
           <button id="Login-btn" class="btn btn-primary mt-4 rounded-full w-full">Login</button>
         </fieldset>
       </div>
@@ -49,6 +55,7 @@
 
 
 
-<script src="./Javascript/login.js"></script>
+    <script src="./Javascript/login.js"></script>
 </body>
+
 </html>
